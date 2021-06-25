@@ -13,7 +13,7 @@ flights1 %>%
 
 # data.table code
 
-flights1[origin == "JFK" & carrier == "AA" & air_time < 500 & distance < 2000, c(9, 12, 13, 14, 15)]
+
 
   
   
